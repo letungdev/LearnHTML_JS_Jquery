@@ -1,0 +1,29 @@
+body {
+		 font-family: Arial, Helvetica, sans-serif;
+		}
+
+		table,th,td{
+			 border: 1px solid black;
+		}
+
+		td{
+			padding: 5px;
+		}
+
+		thead{
+			background:  #3056A0;
+			color: white;
+		}
+
+		caption{
+			font-weight: bold;
+		}
+
+		tfoot{
+			font-size: 0.75em;
+			text-align:right;
+		}
+
+		tbody tr:nth-child(even) {
+		background: #E6E6F5;
+	}
